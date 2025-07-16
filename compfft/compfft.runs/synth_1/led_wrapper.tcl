@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "/home/mukund/compfft/compfft.runs/synth_1/led_wrapper.tcl"
+  variable script "/home/mukund/Desktop/Git/PS_RRI/compfft/compfft.runs/synth_1/led_wrapper.tcl"
   variable category "vivado_synth"
 }
 
@@ -65,43 +65,43 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir /home/mukund/compfft/compfft.cache/wt [current_project]
-set_property parent.project_path /home/mukund/compfft/compfft.xpr [current_project]
+set_property webtalk.parent_dir /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.cache/wt [current_project]
+set_property parent.project_path /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part redpitaya.com:redpitaya:part0:1.1 [current_project]
 set_property ip_repo_paths /home/mukund/Downloads/redpitaya_guide/cores/axis_red_pitaya_adc_v1_0 [current_project]
 update_ip_catalog
-set_property ip_output_repo /home/mukund/compfft/compfft.cache/ip [current_project]
+set_property ip_output_repo /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  /home/mukund/compfft/compfft.srcs/sources_1/new/adc2bram.v
-  /home/mukund/compfft/compfft.srcs/sources_1/new/bra2bram.v
-  /home/mukund/compfft/compfft.srcs/sources_1/new/outcount.v
-  /home/mukund/compfft/compfft.srcs/sources_1/new/accumol.v
-  /home/mukund/compfft/compfft.gen/sources_1/bd/led/hdl/led_wrapper.v
+  /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.srcs/sources_1/new/adc2bram.v
+  /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.srcs/sources_1/new/bra2bram.v
+  /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.srcs/sources_1/new/outcount.v
+  /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.srcs/sources_1/new/accumol.v
+  /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/hdl/led_wrapper.v
 }
-add_files /home/mukund/compfft/compfft.srcs/sources_1/bd/led/led.bd
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_proc_sys_reset_0_1/led_proc_sys_reset_0_1_board.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_proc_sys_reset_0_1/led_proc_sys_reset_0_1.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_processing_system7_0_0/led_processing_system7_0_0.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_gpio_0_0/led_axi_gpio_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_gpio_0_0/led_axi_gpio_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_gpio_0_0/led_axi_gpio_0_0.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_0_0/led_util_ds_buf_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_0_0/led_util_ds_buf_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_1_0/led_util_ds_buf_1_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_1_0/led_util_ds_buf_1_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_0_1/led_blk_mem_gen_0_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_0_2/led_blk_mem_gen_0_2_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_1_2/led_blk_mem_gen_1_2_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_1_4/led_blk_mem_gen_1_4_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_interconnect_0_imp_auto_pc_1/led_axi_interconnect_0_imp_auto_pc_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_interconnect_0_imp_auto_pc_0/led_axi_interconnect_0_imp_auto_pc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/mukund/compfft/compfft.gen/sources_1/bd/led/led_ooc.xdc]
+add_files /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.srcs/sources_1/bd/led/led.bd
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_proc_sys_reset_0_1/led_proc_sys_reset_0_1_board.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_proc_sys_reset_0_1/led_proc_sys_reset_0_1.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_processing_system7_0_0/led_processing_system7_0_0.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_gpio_0_0/led_axi_gpio_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_gpio_0_0/led_axi_gpio_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_gpio_0_0/led_axi_gpio_0_0.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_0_0/led_util_ds_buf_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_0_0/led_util_ds_buf_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_1_0/led_util_ds_buf_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_1_0/led_util_ds_buf_1_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_0_1/led_blk_mem_gen_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_0_2/led_blk_mem_gen_0_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_1_2/led_blk_mem_gen_1_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_1_4/led_blk_mem_gen_1_4_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_interconnect_0_imp_auto_pc_1/led_axi_interconnect_0_imp_auto_pc_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_interconnect_0_imp_auto_pc_0/led_axi_interconnect_0_imp_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/led_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -112,17 +112,17 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc /home/mukund/compfft/compfft.srcs/constrs_1/new/clock.xdc
-set_property used_in_implementation false [get_files /home/mukund/compfft/compfft.srcs/constrs_1/new/clock.xdc]
+read_xdc /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.srcs/constrs_1/new/clock.xdc
+set_property used_in_implementation false [get_files /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.srcs/constrs_1/new/clock.xdc]
 
-read_xdc /home/mukund/compfft/compfft.srcs/constrs_1/new/port.xdc
-set_property used_in_implementation false [get_files /home/mukund/compfft/compfft.srcs/constrs_1/new/port.xdc]
+read_xdc /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.srcs/constrs_1/new/port.xdc
+set_property used_in_implementation false [get_files /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.srcs/constrs_1/new/port.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental /home/mukund/compfft/compfft.srcs/utils_1/imports/synth_1/led_wrapper.dcp
+read_checkpoint -auto_incremental -incremental /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.srcs/utils_1/imports/synth_1/led_wrapper.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

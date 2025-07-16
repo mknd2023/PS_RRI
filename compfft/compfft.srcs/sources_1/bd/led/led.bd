@@ -2925,8 +2925,8 @@
         "ports": [
           "GPIOCONTROLLER/Dout",
           "ADC1_to_FFT/reset",
-          "accumol_0/r",
-          "outcou_0/r"
+          "outcou_0/r",
+          "accumol_0/r"
         ]
       },
       "accum_0_addread": {
@@ -3062,8 +3062,8 @@
       "ppp_0_tl": {
         "ports": [
           "FFT/m_axis_data_tlast_0",
-          "accumol_0/tlast",
-          "outcou_0/tlast"
+          "outcou_0/tlast",
+          "accumol_0/tlast"
         ]
       },
       "proc_sys_reset_0_peripheral_aresetn": {
@@ -3084,8 +3084,8 @@
           "ADC1_to_FFT/aclk",
           "FFT/aclk",
           "blk_mem_gen_2/clka",
-          "accumol_0/clk",
-          "outcou_0/clk"
+          "outcou_0/clk",
+          "accumol_0/clk"
         ]
       },
       "xlconcat_0_dout": {

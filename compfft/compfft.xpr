@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="68" Path="/home/mukund/compfft/compfft.xpr">
+<Project Product="Vivado" Version="7" Minor="68" Path="/home/mukund/Desktop/Git/PS_RRI/compfft/compfft.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="809efe8d30a84e878c2cce54fe76ff4c"/>
@@ -47,7 +47,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../Downloads/redpitaya_guide/cores/axis_red_pitaya_adc_v1_0"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Downloads/redpitaya_guide/cores/axis_red_pitaya_adc_v1_0"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
     <Option Name="IPCachePermission" Val="read"/>

@@ -137,43 +137,43 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==led_axi_int
 # IP: bd/led/ip/led_axi_interconnect_0_imp_auto_pc_0/led_axi_interconnect_0_imp_auto_pc_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==led_axi_interconnect_0_imp_auto_pc_0 || ORIG_REF_NAME==led_axi_interconnect_0_imp_auto_pc_0} -quiet] -quiet
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_proc_sys_reset_0_1/led_proc_sys_reset_0_1_board.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_proc_sys_reset_0_1/led_proc_sys_reset_0_1_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==led_proc_sys_reset_0_1 || ORIG_REF_NAME==led_proc_sys_reset_0_1} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_proc_sys_reset_0_1/led_proc_sys_reset_0_1.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_proc_sys_reset_0_1/led_proc_sys_reset_0_1.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==led_proc_sys_reset_0_1 || ORIG_REF_NAME==led_proc_sys_reset_0_1} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_processing_system7_0_0/led_processing_system7_0_0.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_processing_system7_0_0/led_processing_system7_0_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==led_processing_system7_0_0 || ORIG_REF_NAME==led_processing_system7_0_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_gpio_0_0/led_axi_gpio_0_0_board.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_gpio_0_0/led_axi_gpio_0_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==led_axi_gpio_0_0 || ORIG_REF_NAME==led_axi_gpio_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_gpio_0_0/led_axi_gpio_0_0_ooc.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_gpio_0_0/led_axi_gpio_0_0_ooc.xdc
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_gpio_0_0/led_axi_gpio_0_0.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_gpio_0_0/led_axi_gpio_0_0.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==led_axi_gpio_0_0 || ORIG_REF_NAME==led_axi_gpio_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_0_0/led_util_ds_buf_0_0_ooc.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_0_0/led_util_ds_buf_0_0_ooc.xdc
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_0_0/led_util_ds_buf_0_0_board.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_0_0/led_util_ds_buf_0_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==led_util_ds_buf_0_0 || ORIG_REF_NAME==led_util_ds_buf_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_1_0/led_util_ds_buf_1_0_ooc.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_1_0/led_util_ds_buf_1_0_ooc.xdc
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_1_0/led_util_ds_buf_1_0_board.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_util_ds_buf_1_0/led_util_ds_buf_1_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==led_util_ds_buf_1_0 || ORIG_REF_NAME==led_util_ds_buf_1_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_0_1/led_blk_mem_gen_0_1_ooc.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_0_1/led_blk_mem_gen_0_1_ooc.xdc
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_0_2/led_blk_mem_gen_0_2_ooc.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_0_2/led_blk_mem_gen_0_2_ooc.xdc
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_1_2/led_blk_mem_gen_1_2_ooc.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_1_2/led_blk_mem_gen_1_2_ooc.xdc
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_1_4/led_blk_mem_gen_1_4_ooc.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_blk_mem_gen_1_4/led_blk_mem_gen_1_4_ooc.xdc
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_interconnect_0_imp_auto_pc_1/led_axi_interconnect_0_imp_auto_pc_1_ooc.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_interconnect_0_imp_auto_pc_1/led_axi_interconnect_0_imp_auto_pc_1_ooc.xdc
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_interconnect_0_imp_auto_pc_0/led_axi_interconnect_0_imp_auto_pc_0_ooc.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/ip/led_axi_interconnect_0_imp_auto_pc_0/led_axi_interconnect_0_imp_auto_pc_0_ooc.xdc
 
-# XDC: /home/mukund/compfft/compfft.gen/sources_1/bd/led/led_ooc.xdc
+# XDC: /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.gen/sources_1/bd/led/led_ooc.xdc

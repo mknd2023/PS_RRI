@@ -21,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/mukund/compfft/compfft.runs/impl_1'
+HD_PWD='/home/mukund/Desktop/Git/PS_RRI/compfft/compfft.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

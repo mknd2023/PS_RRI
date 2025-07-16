@@ -26,7 +26,7 @@ reg [1:0] state, next_state;
 reg [9:0] adda,next_adda;
 reg we;
 reg fin;
-reg [2:0] cyc,nextcyc;
+reg [10:0] cyc,nextcyc;
 assign addra=adda;
 assign finished=fin;
 assign wea=we;
@@ -68,7 +68,7 @@ begin
         if (adda==1023)
         begin
         nextcyc=cyc+1;
-        if (cyc==4) begin 
+        if (cyc==1024) begin 
         next_state=IDLE;
         end
         end

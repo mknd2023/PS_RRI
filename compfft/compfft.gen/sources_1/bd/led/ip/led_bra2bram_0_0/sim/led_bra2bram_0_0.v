@@ -67,7 +67,7 @@ module led_bra2bram_0_0 (
 input wire reset;
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 aclk CLK" *)
 (* X_INTERFACE_MODE = "slave" *)
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME aclk, ASSOCIATED_RESET reset, FREQ_HZ 125000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN led_axis_red_pitaya_adc_0_1_adc_clk, INSERT_VIP 0" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME aclk, ASSOCIATED_RESET reset, FREQ_HZ 1.25e+08, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN led_processing_system7_0_0_FCLK_CLK0, INSERT_VIP 0" *)
 input wire aclk;
 output wire [9 : 0] addra;
 output wire finished;

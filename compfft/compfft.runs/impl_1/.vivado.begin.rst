@@ -1,70 +1,10 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="6660" HostCore="12" HostMemory="16037596">
+    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="205749" HostCore="12" HostMemory="16037588">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="49346" HostCore="12" HostMemory="16037596">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="94503" HostCore="12" HostMemory="16037596">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="140388" HostCore="12" HostMemory="16037596">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="179013" HostCore="12" HostMemory="16037596">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="222856" HostCore="12" HostMemory="16037596">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="255656" HostCore="12" HostMemory="16037596">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="292242" HostCore="12" HostMemory="16037596">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="331417" HostCore="12" HostMemory="16037596">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="400812" HostCore="12" HostMemory="16037596">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="436257" HostCore="12" HostMemory="16037596">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="480503" HostCore="12" HostMemory="16037596">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="526881" HostCore="12" HostMemory="16037596">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="573290" HostCore="12" HostMemory="16037596">
+    <Process Command="vivado" Owner="mukund" Host="mukund-HP-Pavilion-Laptop-14-dv2xxx" Pid="250324" HostCore="12" HostMemory="16037588">
     </Process>
 </ProcessHandle>

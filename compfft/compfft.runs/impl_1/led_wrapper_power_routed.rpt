@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-| Date             : Fri Jul 11 16:43:53 2025
+| Date             : Wed Jul 16 10:09:27 2025
 | Host             : mukund-HP-Pavilion-Laptop-14-dv2xxx running 64-bit Ubuntu 22.04.5 LTS
 | Command          : report_power -file led_wrapper_power_routed.rpt -pb led_wrapper_power_summary_routed.pb -rpx led_wrapper_power_routed.rpx
 | Design           : led_wrapper
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.650        |
+| Total On-Chip Power (W)  | 1.655        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.529        |
+| Dynamic (W)              | 1.535        |
 | Device Static (W)        | 0.120        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 66.0         |
-| Junction Temperature (C) | 44.0         |
+| Max Ambient (C)          | 65.9         |
+| Junction Temperature (C) | 44.1         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -53,21 +53,21 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.024 |        5 |       --- |             --- |
-| Slice Logic              |     0.016 |    13868 |       --- |             --- |
-|   LUT as Logic           |     0.011 |     3389 |     17600 |           19.26 |
-|   Register               |     0.002 |     6712 |     35200 |           19.07 |
+| Slice Logic              |     0.016 |    13887 |       --- |             --- |
+|   LUT as Logic           |     0.011 |     3386 |     17600 |           19.24 |
+|   Register               |     0.002 |     6720 |     35200 |           19.09 |
 |   CARRY4                 |     0.002 |      430 |      4400 |            9.77 |
-|   LUT as Shift Register  |     0.001 |      671 |      6000 |           11.18 |
+|   LUT as Shift Register  |     0.001 |      672 |      6000 |           11.20 |
 |   BUFG                   |    <0.001 |        1 |        32 |            3.13 |
 |   Others                 |     0.000 |     1173 |       --- |             --- |
 |   LUT as Distributed RAM |     0.000 |       31 |      6000 |            0.52 |
-| Signals                  |     0.025 |     9577 |       --- |             --- |
-| Block RAM                |     0.020 |      9.5 |        60 |           15.83 |
+| Signals                  |     0.026 |     9580 |       --- |             --- |
+| Block RAM                |     0.024 |      9.5 |        60 |           15.83 |
 | DSPs                     |     0.025 |       20 |        80 |           25.00 |
 | I/O                      |     0.032 |       57 |       100 |           57.00 |
 | PS7                      |     1.388 |        1 |       --- |             --- |
 | Static Power             |     0.120 |          |           |                 |
-| Total                    |     1.650 |          |           |                 |
+| Total                    |     1.655 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -77,7 +77,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.117 |       0.109 |      0.007 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.122 |       0.115 |      0.007 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.013 |       0.005 |      0.008 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -86,7 +86,7 @@ Table of Contents
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccbram   |       1.000 |     0.002 |       0.001 |      0.001 |       NA    | Unspecified | NA         |
+| Vccbram   |       1.000 |     0.003 |       0.002 |      0.001 |       NA    | Unspecified | NA         |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -155,16 +155,16 @@ Table of Contents
 +-----------------------------+-----------+
 | Name                        | Power (W) |
 +-----------------------------+-----------+
-| led_wrapper                 |     1.529 |
-|   led_i                     |     1.529 |
+| led_wrapper                 |     1.535 |
+|   led_i                     |     1.534 |
 |     ADC1                    |     0.001 |
 |       axis_red_pitaya_adc_0 |     0.001 |
 |     Buffers                 |     0.031 |
 |       util_ds_buf_1         |     0.030 |
 |     FFT                     |     0.067 |
 |       xfft_0                |     0.067 |
-|     FFT_to_PSD              |     0.011 |
-|       c_addsub_0            |     0.001 |
+|     FFT_to_PSD              |     0.012 |
+|       c_addsub_0            |     0.002 |
 |       mult_gen_0            |     0.005 |
 |       mult_gen_1            |     0.005 |
 |     GPIOCONTROLLER          |     0.005 |
@@ -174,12 +174,12 @@ Table of Contents
 |     PS7                     |     1.400 |
 |       axi_interconnect_0    |     0.011 |
 |       processing_system7_0  |     1.389 |
-|     blk_mem_gen_08          |     0.004 |
-|       U0                    |     0.004 |
+|     blk_mem_gen_08          |     0.008 |
+|       U0                    |     0.008 |
 |     blk_mem_gen_1           |     0.004 |
 |       U0                    |     0.004 |
-|     blk_mem_gen_2           |     0.003 |
-|       U0                    |     0.003 |
+|     blk_mem_gen_2           |     0.004 |
+|       U0                    |     0.004 |
 |     c_addsub_1              |     0.002 |
 |       U0                    |     0.002 |
 +-----------------------------+-----------+

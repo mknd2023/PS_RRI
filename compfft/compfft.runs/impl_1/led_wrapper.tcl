@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "/home/mukund/compfft/compfft.runs/impl_1/led_wrapper.tcl"
+  variable script "/home/mukund/Desktop/Git/PS_RRI/compfft/compfft.runs/impl_1/led_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -114,23 +114,23 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir /home/mukund/compfft/compfft.cache/wt [current_project]
-  set_property parent.project_path /home/mukund/compfft/compfft.xpr [current_project]
+  set_property webtalk.parent_dir /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.cache/wt [current_project]
+  set_property parent.project_path /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.xpr [current_project]
   set_property ip_repo_paths /home/mukund/Downloads/redpitaya_guide/cores/axis_red_pitaya_adc_v1_0 [current_project]
   update_ip_catalog
-  set_property ip_output_repo /home/mukund/compfft/compfft.cache/ip [current_project]
+  set_property ip_output_repo /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet /home/mukund/compfft/compfft.runs/synth_1/led_wrapper.dcp
+  add_files -quiet /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.runs/synth_1/led_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files /home/mukund/compfft/compfft.srcs/sources_1/bd/led/led.bd
+  add_files /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.srcs/sources_1/bd/led/led.bd
   set_param project.isImplRun false
 OPTRACE "read constraints: implementation" START { }
-  read_xdc /home/mukund/compfft/compfft.srcs/constrs_1/new/clock.xdc
-  read_xdc /home/mukund/compfft/compfft.srcs/constrs_1/new/port.xdc
+  read_xdc /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.srcs/constrs_1/new/clock.xdc
+  read_xdc /home/mukund/Desktop/Git/PS_RRI/compfft/compfft.srcs/constrs_1/new/port.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }

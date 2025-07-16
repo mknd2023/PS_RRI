@@ -1,29 +1,23 @@
 {
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"1.0",
-   "Default View_TopLeft":"-224,-79",
+   "Default View_TopLeft":"-226,-67",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
 #  -string -flagsOSRD
 preplace port port-id_CLK -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
-preplace portBus dout -pg 1 -lvl 4 -x 650 -y 370 -defaultsOSRD
 preplace portBus S -pg 1 -lvl 4 -x 650 -y 280 -defaultsOSRD
-preplace portBus Din -pg 1 -lvl 0 -x 0 -y 170 -defaultsOSRD
-preplace portBus P -pg 1 -lvl 4 -x 650 -y 190 -defaultsOSRD
+preplace portBus A -pg 1 -lvl 0 -x 0 -y 210 -defaultsOSRD
+preplace portBus A1 -pg 1 -lvl 0 -x 0 -y 70 -defaultsOSRD
 preplace inst c_addsub_0 -pg 1 -lvl 3 -x 540 -y 280 -defaultsOSRD
 preplace inst mult_gen_0 -pg 1 -lvl 2 -x 350 -y 210 -defaultsOSRD
 preplace inst mult_gen_1 -pg 1 -lvl 2 -x 350 -y 70 -defaultsOSRD
-preplace inst xlconstant_0 -pg 1 -lvl 2 -x 350 -y 350 -defaultsOSRD
-preplace inst xlslice_3 -pg 1 -lvl 1 -x 130 -y 90 -defaultsOSRD
-preplace inst xlslice_4 -pg 1 -lvl 1 -x 130 -y 210 -defaultsOSRD
-preplace netloc axis_red_pitaya_adc_0_adc_clk 1 0 3 NJ 150 250 290 NJ
+preplace netloc axis_red_pitaya_adc_0_adc_clk 1 0 3 NJ 150 250 290 450J
 preplace netloc c_addsub_0_S 1 3 1 NJ 280
-preplace netloc mult_gen_0_P 1 2 2 450 190 NJ
-preplace netloc mult_gen_1_P 1 2 1 440 70n
-preplace netloc xfft_0_m_axis_data_tdata 1 0 1 20 90n
-preplace netloc xlconstant_0_dout 1 2 2 440 370 NJ
-preplace netloc xlslice_3_Dout 1 1 1 260 70n
-preplace netloc xlslice_4_Dout 1 1 1 240 210n
+preplace netloc mult_gen_0_P 1 2 1 440 210n
+preplace netloc mult_gen_1_P 1 2 1 450 70n
+preplace netloc xfft_0_m_axis_data_tdata 1 0 2 N 210 240
+preplace netloc xlslice_3_Dout 1 0 2 20 160 260
 levelinfo -pg 1 0 130 350 540 650
 pagesize -pg 1 -db -bbox -sgen -120 0 770 400
 "

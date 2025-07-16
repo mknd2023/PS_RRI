@@ -25,7 +25,7 @@ reg [1:0] state,nextstate;
 reg [9:0] add,nadd;
 reg [63:0] wd,nextwd;
 reg c,nc;
-reg [2:0] m;
+reg [10:0] m;
 reg [3:0] f,nf;
 assign addread=add;
 assign wrdata=wd;
@@ -45,16 +45,16 @@ end
 else if ((state==2)) begin 
 if (nadd==2)
 m<=m+1;
-if ((m==3)&(nadd==2))
+if ((m==1023)&(nadd==2))
 begin
 f<=4'b1111;
 end
-else if (m==4)
+else if (m==1024)
 begin
 if (nadd==3) c<=0;
 if (nadd==2) f<=0;
 end
-else if (m>4)
+else if (m>1024)
 state<=3;
 end
 else 

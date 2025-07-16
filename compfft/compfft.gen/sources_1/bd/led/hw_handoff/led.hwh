@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Jul 11 16:40:12 2025" VIVADOVERSION="2024.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Jul 16 10:05:41 2025" VIVADOVERSION="2024.2">
 
   <SYSTEMINFO ARCH="zynq" BOARD="redpitaya.com:redpitaya:part0:1.1" DEVICE="7z010" NAME="led" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -1021,8 +1021,8 @@
         </PORT>
         <PORT DIR="O" NAME="m_axis_data_tlast" SIGIS="undef" SIGNAME="FFT_xfft_0_m_axis_data_tlast">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="accumol_0" PORT="tlast"/>
             <CONNECTION INSTANCE="outcou_0" PORT="tlast"/>
+            <CONNECTION INSTANCE="accumol_0" PORT="tlast"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axis_data_tready" SIGIS="undef" SIGNAME="FFT_xlconstant_7_dout">
@@ -3029,8 +3029,8 @@
         <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="GPIOCONTROLLER_xlslice_0_Dout">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ADC1_to_FFT_adc2bram_0" PORT="reset"/>
-            <CONNECTION INSTANCE="accumol_0" PORT="r"/>
             <CONNECTION INSTANCE="outcou_0" PORT="r"/>
+            <CONNECTION INSTANCE="accumol_0" PORT="r"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -5283,8 +5283,8 @@
             <CONNECTION INSTANCE="ADC1_to_FFT_bra2bram_0" PORT="aclk"/>
             <CONNECTION INSTANCE="FFT_xfft_0" PORT="aclk"/>
             <CONNECTION INSTANCE="blk_mem_gen_2" PORT="clka"/>
-            <CONNECTION INSTANCE="accumol_0" PORT="clk"/>
             <CONNECTION INSTANCE="outcou_0" PORT="clk"/>
+            <CONNECTION INSTANCE="accumol_0" PORT="clk"/>
             <CONNECTION INSTANCE="PS7_axi_interconnect_0" PORT="M02_ACLK"/>
           </CONNECTIONS>
         </PORT>

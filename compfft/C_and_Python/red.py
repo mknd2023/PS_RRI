@@ -12,6 +12,8 @@ for row in f:
     if count == 512:
         break
 f.close()
+psdval=np.sqrt(np.array(psdval))
+psdval=20*np.log10(psdval)
 plt.plot(sampno, psdval, color='red', marker='x')
 plt.show()
 

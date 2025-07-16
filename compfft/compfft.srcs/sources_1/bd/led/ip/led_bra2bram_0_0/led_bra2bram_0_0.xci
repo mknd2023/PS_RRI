@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "led_bra2bram_0_0",
-    "cell_name": "ADC1_to_FFT/bra2bram_0",
+    "cell_name": "bra2bram_0",
     "component_reference": "xilinx.com:module_ref:bra2bram:1.0",
     "ip_revision": "1",
     "gen_directory": "../../../../../../compfft.gen/sources_1/bd/led/ip/led_bra2bram_0_0",
